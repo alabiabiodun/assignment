@@ -1,0 +1,128 @@
+*{
+    margin:0;
+}
+
+body{
+    background-image: linear-gradient(top,rgb(204, 173, 199) 0%,rgb(204, 173, 199) 100%);
+}
+
+.theme{
+    margin: 10px 10px;
+    color: rgb(0, 0, 0);
+    font-size: 0.8em;
+    font-family: Georgia, 'Times New Roman', Times, serif;   
+}
+
+.theme h1{
+    border-bottom: 2px solid rgb(65, 204, 163);
+    border-right: 2px solid rgb(65, 204, 163);
+    text-align: center;
+    margin: 0.9em;
+    width:11em;
+    padding:0.5em;
+    box-shadow: 5px 5px 8px rgb(158, 168, 167);   
+}
+
+.img_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px,1fr));
+    grid-template-rows: masonry;
+    grid-gap: 15px;
+    padding: 0 15px;
+}
+
+.photo{
+    cursor: pointer;
+    /*display:inline-block*/;
+    text-align: center;
+    font-size: 10em;
+    border-radius: 10px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+  
+}
+
+.img1 img {
+    margin: 15px auto;
+    vertical-align: middle;    
+}
+
+.img2 img {
+    margin: 15px auto;
+    vertical-align: middle;    
+}
+
+.img3 img {
+    margin: 100px auto;
+    vertical-align: middle;    
+}
+
+.img4 img {
+    margin: 30px auto;
+    vertical-align: middle;    
+}
+
+.img5 img {
+    margin: 30px auto;
+    vertical-align: middle;    
+}
+
+.img6 img {
+    margin: 30px auto;
+    vertical-align: middle;    
+}
+
+.img7 img {
+    margin: 30px auto;
+    vertical-align: middle;    
+}
+
+.img8 img {
+    margin: 150px auto;
+    vertical-align: middle;    
+}
+
+.img9 img {
+    margin: 30px auto;
+    vertical-align: middle;    
+}
+
+.img10 img {
+    margin: 30px auto;
+    vertical-align: middle;    
+}
+
+.img11 img {
+    margin: 250px auto;
+    vertical-align: middle;    
+}
+
+.img12 img {
+    margin: 30px auto;
+    vertical-align: middle;    
+}
+
+.photo:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+/*.img_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}*/
+
+/*img{
+    margin: 1.5em;
+    min-width: 25em;
+    min-height: 15em;
+    background-size: contain;
+    transition: all 1s;
+}*/
+
+/*img:hover{
+    transform: scale(1.1);
+}*/
